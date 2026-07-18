@@ -8,9 +8,9 @@ A mock KYC/AML compliance project that simulates how a KYC analyst reviews custo
 This project generates a synthetic dataset of 1,000 customers and their transactions, applies rule-based red-flag logic using SQL, and visualizes the results in an interactive Power BI dashboard.
 
 # Tools Used
-- **Python** (Faker, Pandas) — synthetic data generation
-- **MySQL** — data storage and red-flag rule logic (SQL views)
-- **Power BI** — dashboard and visualization
+- **Python** (Faker, Pandas): synthetic data generation
+- **MySQL**: data storage and red-flag rule logic (SQL views)
+- **Power BI**: dashboard and visualization
 
 # Red-Flag Rules
 Each customer/transaction is checked against the following rules:
@@ -28,10 +28,10 @@ Each customer/transaction is checked against the following rules:
 ![KYC Dashboard](kyc%20screening%20dashboard.png)
 
 ## Files
-- `kyc_data_generation.ipynb` — Python script to generate synthetic customer/transaction data
-- `customers.csv`, `transactions.csv` — generated datasets
-- `queries.sql` — SQL red-flag rule logic and master risk view
-- `Customer Risk Screening-Power BI.pbix` — Power BI dashboard file
+- `kyc_data_generation.ipynb`: Python script to generate synthetic customer/transaction data
+- `customers.csv`, `transactions.csv`: generated datasets
+- `queries.sql`: SQL red-flag rule logic and master risk view
+- `Customer Risk Screening-Power BI.pbix`: Power BI dashboard file
 
 ## Note
 This is a portfolio project using entirely synthetic data. It does not represent any real customer, institution, or production compliance system.
